@@ -1,14 +1,22 @@
 {
-  "name": "natours",
+  "name": "sass-project-1",
   "version": "1.0.0",
-  "description": "Landing page for natours",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jonas",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Refatchy/sass-project-1.git"
+  },
+  "author": "Refat",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Refatchy/sass-project-1/issues"
+  },
+  "homepage": "https://github.com/Refatchy/sass-project-1#readme",
   "devDependencies": {
-    "node-sass": "^4.5.3"
+    "node-sass": "^4.11.0"
   }
 }
